@@ -73,8 +73,8 @@
     width: 363px;
 
     }
-    orange_bg {
-        width: 589px;
+    .orange_bg {
+        width: 546px;
         height: 776px;
     }
     .blue_bg {
@@ -91,5 +91,8 @@
 .latter_a {
     font-size: 140px;
 
+}
+.www_bs {
+    font-size: 39px;
 }
 }
