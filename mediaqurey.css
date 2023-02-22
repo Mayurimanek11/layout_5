@@ -44,3 +44,52 @@
 
 
 }
+@media screen and (max-width: 500px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.856);
+        position: relative;
+        z-index: 1;
+    }
+    .trend {
+        writing-mode: horizontal-tb;
+        font-size: 35px;
+        border: 3px solid;
+        text-align: center;
+    }
+    .business {
+        font-weight: bold;
+        font-size: 80px;
+        color: rgba(255, 255, 255, 0.87);
+    }
+    .flyer {
+        color: white;
+        font-size: 50px;
+    }
+    .creative {
+        font-size: 20px;
+    }
+    .blue_bg{
+    height: 626px;
+    width: 363px;
+
+    }
+    orange_bg {
+        width: 589px;
+        height: 776px;
+    }
+    .blue_bg {
+        background-color: rgb(39 185 176 / 55%);
+        position: absolute;
+        width: 616px;
+        height: 586px;
+    }
+    .main_img {
+        width: 120%;
+        height: 777px;
+
+}
+.latter_a {
+    font-size: 140px;
+
+}
+}
