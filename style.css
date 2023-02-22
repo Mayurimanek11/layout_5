@@ -1,15 +1,15 @@
 body
 {
     background-color: rgba(0, 0, 0, 0.644);
-    position: relative;
+    position: static;
     z-index: 1;
 }
 .main_img
 {
     width:80vw;
-    height:80vh;
+    height:auto;
     position: absolute;
-    z-index: -1;
+    z-index: -3;
     right:0%;
 }
 /*------------top line one-------------*/
@@ -29,15 +29,155 @@ body
     position:absolute;
     margin-top:4vh;
     left:10vw ;
+    
+} 
+/*------------------trend-------------*/
+ .trend
+{
+    
+    text-orientation:upright;
+    writing-mode: vertical-lr;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    border: 0.1em solid;
+    background-color: orangered;
+     float:right; 
 }
+
 /*-----------------orange_bg-------------------*/
 .orange_bg
 {
+    display: flex   ;
     background-color: rgba(255, 68, 0, 0.507);
-    position: absolute;
+    position:absolute;
     width: 30vw;
-    height: 90vh;
+    height: 100vh;
     z-index: -1;
     left:10vw;
+    padding: 41px;
+    margin: 0%;
 }
-/*--------------------------blue part------------*/
+/*---------------------------logo--------------------*/
+.header_bi .bi
+{
+    color: white;
+    font-size: 13vh;
+    font-weight:800;
+}
+.header_bi .coded
+{
+    color:white;
+    font-size:larger;
+    font-weight:bolder;
+}
+.logo_paragraph
+{
+    flex: content;
+    display: block;
+    color: white;
+    font-size:small;
+}
+/*-----------------------------business---------------------------------*/
+/* .business_div
+{
+    display: flex;
+    justify-content: center;
+} */
+.business
+{
+    
+    font-weight: bold;
+    font-size:6rem;
+    color:rgba(255, 255, 255, 0.87);
+   
+
+
+}
+.flyer
+{
+    
+    color: white;
+    font-size:5rem;
+}
+.creative
+{
+    
+    color: white;
+    font-size:1rem;
+}
+  
+/*------------------- FOTTER_RIGHT PART---------*/
+.footer_items
+{
+    color: white;
+    font-size:1rem;;
+}
+
+.fotter_icons
+{
+    color:white
+}
+
+ ul li
+{
+    list-style-type: none;
+}
+.bi::before
+{
+    font-size: 2rem;
+    height: 0.5rem;
+
+}
+/*---------------------------------------blue part---------------*/
+.blue_bg
+{
+    background-color: rgb(39 185 176 / 55%);
+    position:absolute; 
+    width: 30vw;
+    height: 100vh;
+    /* right: 0%;
+    bottom: 0%; */
+    z-index: -2;
+
+} 
+.latter_a
+{
+    margin-top: 30vh;
+    font-size: 4rem;;
+    color: white;
+    text-align: right;
+    font-weight: 700;
+}
+.blue_paragraph
+{
+    text-align: right;
+    font-size: small;
+    color: white;
+}
+.blue_hr1
+{
+    margin-top: 8vh;
+    border: 0.2rem rgba(100, 148, 237, 0.657) solid;
+}
+.blue_hr2
+{
+    border: 0.2rem rgba(52, 69, 99, 0.759) solid;
+}
+.setting_icon
+{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    text-align: center;
+    margin-top: 8vh;
+
+}
+.www_bs
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8vh;
+
+}
