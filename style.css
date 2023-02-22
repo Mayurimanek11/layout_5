@@ -1,36 +1,44 @@
 body
 {
-    background-color: rgba(0, 0, 0, 0.644);
-    position: static;
+    background-color :rgba(0, 0, 0, 0.856);
+    position: relative;
     z-index: 1;
+    left:10%;
+   
 }
 .main_img
 {
-    width:80vw;
-    height:auto;
+    background-image: url('img/bgimg.avif');
+    background-repeat: no-repeat;
+    width: 1551px;
+    height: 866px;
     position: absolute;
     z-index: -3;
     right:0%;
+   
+   
 }
 /*------------top line one-------------*/
 .top_line1
 {
-    width: 90vw;
-    height: 2vh;
+    width:100%;
+    height: 8px;
     background-color: white;
     position:absolute;
-    right: 0%;
+    
 }
 .top_line2
 {
-    width: 40vw;
-    height: 2vh;
-    background-color:white;
-    position:absolute;
-    margin-top:4vh;
-    left:10vw ;
+    width: 88px;
+    height: 8px;
+    background-color: white;
+    position: absolute;
+    margin-top:25px;
+    left: 1%;
+}
     
-} 
+    
+
 /*------------------trend-------------*/
  .trend
 {
@@ -38,31 +46,29 @@ body
     text-orientation:upright;
     writing-mode: vertical-lr;
     color: white;
-    font-size: 2rem;
+    font-size: 49px;
     font-weight: bolder;
-    border: 0.1em solid;
-    background-color: orangered;
-     float:right; 
+    border: 10px  solid;
+    background-color: rgba(255, 68, 0, 0.507);
+      
 }
 
 /*-----------------orange_bg-------------------*/
 .orange_bg
 {
-    display: flex   ;
+
     background-color: rgba(255, 68, 0, 0.507);
     position:absolute;
-    width: 30vw;
-    height: 100vh;
-    z-index: -1;
-    left:10vw;
-    padding: 41px;
-    margin: 0%;
+    width: 857px;
+    height: 913px;
+    z-index: -2;
+    
 }
 /*---------------------------logo--------------------*/
 .header_bi .bi
 {
     color: white;
-    font-size: 13vh;
+    font-size: 100px;
     font-weight:800;
 }
 .header_bi .coded
@@ -73,22 +79,18 @@ body
 }
 .logo_paragraph
 {
-    flex: content;
-    display: block;
+    text-align:left;
     color: white;
-    font-size:small;
+    font-size:medium;
 }
+
 /*-----------------------------business---------------------------------*/
-/* .business_div
-{
-    display: flex;
-    justify-content: center;
-} */
+
 .business
 {
     
     font-weight: bold;
-    font-size:6rem;
+    font-size:199px;
     color:rgba(255, 255, 255, 0.87);
    
 
@@ -98,79 +100,76 @@ body
 {
     
     color: white;
-    font-size:5rem;
+    font-size:134px;
 }
 .creative
 {
     
     color: white;
-    font-size:1rem;
+    font-size:20px;
 }
   
 /*------------------- FOTTER_RIGHT PART---------*/
 .footer_items
 {
     color: white;
-    font-size:1rem;;
+    font-size: 38px;
+    font-weight: 700;
 }
+
 
 .fotter_icons
 {
-    color:white
+    color:white;
+    font-size:30px;
 }
 
  ul li
 {
     list-style-type: none;
 }
-.bi::before
-{
-    font-size: 2rem;
-    height: 0.5rem;
 
-}
 /*---------------------------------------blue part---------------*/
 .blue_bg
 {
     background-color: rgb(39 185 176 / 55%);
     position:absolute; 
-    width: 30vw;
-    height: 100vh;
-    /* right: 0%;
-    bottom: 0%; */
+    width: 1167px;
+    height: 1031px;
+     right: 0%;
+     bottom: 0%;
     z-index: -2;
 
 } 
 .latter_a
 {
-    margin-top: 30vh;
-    font-size: 4rem;;
+    font-size: 110px;
     color: white;
     text-align: right;
     font-weight: 700;
 }
 .blue_paragraph
 {
-    text-align: right;
-    font-size: small;
+    /* text-align: right; */
+    font-size: medium;
     color: white;
 }
 .blue_hr1
 {
-    margin-top: 8vh;
-    border: 0.2rem rgba(100, 148, 237, 0.657) solid;
+    margin-top: 40px;
+    border: 3px  rgba(100, 148, 237, 0.657) solid;
 }
 .blue_hr2
 {
-    border: 0.2rem rgba(52, 69, 99, 0.759) solid;
+    border: 3px  rgba(52, 69, 99, 0.759) solid;
 }
 .setting_icon
 {
     display: flex;
     justify-content:space-around;
     color: white;
-    text-align: center;
-    margin-top: 8vh;
+    font-size: 60px;
+   
 
 }
 .www_bs
@@ -178,6 +177,7 @@ body
     color: white;
     text-align: center;
     font-weight: bold;
-    margin-top: 8vh;
+    font-size:60px;
+    
 
 }
